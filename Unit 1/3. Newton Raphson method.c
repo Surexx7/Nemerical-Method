@@ -5,9 +5,9 @@
 
 float f(float x)
 {
-    return x*exp(x)-1;
-   return  x*x*x+x*x-3*x-3;
-   //return 3*x+sin(x)-exp(x);
+    //return x*exp(x)-1;
+   //return  x*x*x+x*x-3*x-3;
+   return 3*x+sin(x)-exp(x);
 }
 float fd(float x)
 {
